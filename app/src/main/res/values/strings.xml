@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">tripadoo</string>
+    <string name="tripado">TRIPADO</string>
+    <string name="logo"/>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+    <string name="romania">Romania</string>
+    <string name="n_apropierea_loca_iei_curente">în apropierea locație curente</string>
+    <string name="mar_23_ian_dum_24_ian">dum., 24 ian. - mie., 27 ian.</string>
+    <string name="_1_camer_2_adul_i_f_r_copii">1 cameră - 2 adulți, Fără copii</string>
+    <string name="c_utare">Căutare</string>
+    <string name="descoper_fiecare_continent">Descoperă fiecare continent</string>
+    <string name="las_te_inspirat_pentru_noua_ta_aventur">Lasă-te inspirat pentru noua ta aventură</string>
+</resources>
