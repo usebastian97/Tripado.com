@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+
     <item
         android:id="@+id/nav_romania"
+        android:icon="@drawable/ic_flag"
         android:title="@string/romania"/>
+
+    <item
+        android:id="@+id/nav_forum"
+        android:icon="@drawable/ic_baseline_forum_24"
+        android:title="@string/forum"/>
+
+    <item
+        android:id="@+id/nav_blog"
+        android:icon="@drawable/ic_blog"
+        android:title="@string/blog"/>
+
+    <item
+        android:id="@+id/nav_avion"
+        android:icon="@drawable/ic_plane"
+        android:title="@string/avion"/>
+
+    <item
+        android:id="@+id/nav_hotel"
+        android:icon="@drawable/ic_hotel"
+        android:title="@string/hotel"/>
 </menu>
