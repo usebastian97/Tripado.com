@@ -2,28 +2,66 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item
-        android:id="@+id/nav_romania"
-        android:icon="@drawable/ic_flag"
-        android:title="@string/romania"/>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_genius"
+            android:icon="@drawable/ic_baseline_insert_emoticon_24"
+            android:title="@string/geniusprogram"/>
 
-    <item
-        android:id="@+id/nav_forum"
-        android:icon="@drawable/ic_baseline_forum_24"
-        android:title="@string/forum"/>
+        <item
+            android:id="@+id/nav_romania"
+            android:icon="@drawable/ic_flag"
+            android:title="@string/romania"/>
+    </group>
 
-    <item
-        android:id="@+id/nav_blog"
-        android:icon="@drawable/ic_blog"
-        android:title="@string/blog"/>
+    <item android:title="@string/comunicare">
 
-    <item
-        android:id="@+id/nav_avion"
-        android:icon="@drawable/ic_plane"
-        android:title="@string/avion"/>
+        <menu>
 
-    <item
-        android:id="@+id/nav_hotel"
-        android:icon="@drawable/ic_hotel"
-        android:title="@string/hotel"/>
+
+            <item
+                android:id="@+id/nav_forum"
+                android:icon="@drawable/ic_baseline_forum_24"
+                android:title="@string/forum"/>
+
+            <item
+                android:id="@+id/nav_blog"
+                android:icon="@drawable/ic_blog"
+                android:title="@string/blog"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/servicii_cazare_si_zbor">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_avion"
+                android:icon="@drawable/ic_plane"
+                android:title="@string/avion"/>
+
+            <item
+                android:id="@+id/nav_hotel"
+                android:icon="@drawable/ic_hotel"
+                android:title="@string/hotel"/>
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Setari">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_setari"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/set_ri"/>
+
+        </menu>
+
+    </item>
+
 </menu>
