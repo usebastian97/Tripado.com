@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tripadoo">
-        <activity android:name=".GeniuProgramActivity"
+        <activity android:name=".ProfileUserActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".RomaniaActivity"
+        <activity
+            android:name=".GeniuProgramActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".RomaniaActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".MainActivity"

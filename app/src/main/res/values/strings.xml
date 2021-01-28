@@ -23,4 +23,12 @@
     <string name="servicii_cazare_si_zbor">Servicii cazare si zbor</string>
     <string name="set_ri">Setări</string>
     <string name="descriere_genius">Alege unul din planurile GeniusProgram, și bucură-te la maxim de noile experiențe</string>
+    <string name="caut_o_destina_ie_in_romania">Caută o destinație in Romania</string>
+    <string name="romaniaaa">ROMANIA</string>
+    <string name="bucure_ti">București</string>
+    <string name="cele_mai_populare_ora_e_din_romania">Cele mai populare orașe din Romania</string>
+    <string name="cluj_napoca">Cluj-Napoca</string>
+    <string name="timi_oara">Timișoara</string>
+    <string name="ia_i">Iași</string>
+    <string name="top_destina_ii_montane">Top destinații montane</string>
 </resources>

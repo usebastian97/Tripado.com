@@ -3,7 +3,9 @@ package com.usebastian.tripadoo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.annotation.NonNull;
@@ -25,6 +27,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 		setContentView( R.layout.activity_main );
 
 		Toolbar toolbar = findViewById( R.id.toolbar );
+		FloatingActionButton floatingActionButton = findViewById( R.id.fab);
+		floatingActionButton.setOnClickListener( new View.OnClickListener()
+		{
+			@Override
+			public void onClick( View v )
+			{
+				startActivity( new Intent(MainActivity.this ,ProfileUserActivity.class) );
+			}
+		} );
 
 		drawerLayout = findViewById( R.id.drawer_layout );
 
